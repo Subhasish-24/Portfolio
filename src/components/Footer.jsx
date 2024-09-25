@@ -1,4 +1,4 @@
-import { github, insta, twitter } from "../assets/images";
+import { github, insta, twitter } from "../images";
 
 const Footer = () => {
   return (

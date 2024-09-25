@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { arrowUp } from "../assets/images";
+import { arrowUp } from "../images";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { close, menu } from "../assets/images";
+import { close, menu } from "../images";
 import { NavItems } from "./index";
 
 const Navbar = () => {

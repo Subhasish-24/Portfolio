@@ -1,6 +1,6 @@
 import React, { Suspense, useState } from "react";
 import { myProject } from "../constant";
-import { arrowUp, leftArrow, rightArrow } from "../assets/images";
+import { arrowUp, leftArrow, rightArrow } from "../images";
 import { Canvas } from "@react-three/fiber";
 import { CanvasLoader, RetroComputer } from "../components/index";
 import { Center, OrbitControls } from "@react-three/drei";
@@ -23,16 +23,20 @@ const Projects = () => {
       }
     });
   };
-  useGSAP(()=>{
-    gsap.fromTo(".animatedText",{
-        opacity:0
-    },{
-        opacity:1,
-        duration:1,
-        stagger:0.2,
-        ease:"power2.inOut"
-    })
-  },[selectArrow])
+  useGSAP(() => {
+    gsap.fromTo(
+      ".animatedText",
+      {
+        opacity: 0,
+      },
+      {
+        opacity: 1,
+        duration: 1,
+        stagger: 0.2,
+        ease: "power2.inOut",
+      }
+    );
+  }, [selectArrow]);
   return (
     <section className="c-space my-20" id="work">
       <p className="head-text">My Work</p>
@@ -116,12 +120,16 @@ const Projects = () => {
             <directionalLight position={[10, 10, 5]} />
             <Center>
               <Suspense fallback={<CanvasLoader />}>
-                <group scale={1.7} position={[0, -2, 0]} rotation={[0, -0.1, 0]}>
+                <group
+                  scale={1.7}
+                  position={[0, -2, 0]}
+                  rotation={[0, -0.1, 0]}
+                >
                   <RetroComputer texture={currentProject.textures} />
                 </group>
               </Suspense>
             </Center>
-            <OrbitControls maxPolarAngle={Math.PI /2} enableZoom={false} />
+            <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
           </Canvas>
         </div>
       </div>

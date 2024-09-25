@@ -35,32 +35,32 @@ export const myProject = [
       boxShadow: "0px 0px 60px 0px #AA3C304D",
     },
     textures: "/videos/apple.mp4",
-    spotlight: "/src/assets/spotlight1.png",
+    spotlight: "/assets/spotlight1.png",
     tags: [
       {
         id: 1,
         name: "React.js",
-        path: "/src/assets/react.svg",
+        path: "/assets/react.svg",
       },
       {
         id: 2,
         name: "TailwindCSS",
-        path: "/src/assets/tailwind-logo.png",
+        path: "/assets/tailwind-logo.png",
       },
       {
         id: 3,
         name: "Three js",
-        path: "/src/assets/threejs.png",
+        path: "/assets/threejs.png",
       },
       {
         id: 4,
         name: "GSAP",
-        path: "/src/assets/gsap.png",
+        path: "/assets/gsap.png",
       },
       {
         id: 5,
         name: "R3F",
-        path: "/src/assets/r3f.png",
+        path: "/assets/r3f.png",
       },
     ],
   },
@@ -70,29 +70,29 @@ export const myProject = [
     subDesc:
       "This interactive web application provides a captivating 3D camping scene on the right side of the screen. On the left, an animated text description complements the visual experience, reflecting the essence of the camping environment. A dynamic Enter button invites users to step into the scene, exploring the surroundings in a fully immersive 3D experience.",
     href: "https://text-animation-omega.vercel.app/",
-    logo: "/src/assets/text-logo.png",
+    logo: "/assets/text-logo.png",
     logoStyle: {
       backgroundColor: "#13202F",
       border: "0.2px solid #17293E",
       boxShadow: "0px 0px 60px 0px #2F6DB54D",
     },
     textures: "/videos/camping.mp4",
-    spotlight: "/src/assets/spotlight2.png",
+    spotlight: "/assets/spotlight2.png",
     tags: [
       {
         id: 1,
         name: "React.js",
-        path: "/src/assets/react.svg",
+        path: "/assets/react.svg",
       },
       {
         id: 2,
         name: "TailwindCss",
-        path: "/src/assets/tailwind-logo.png",
+        path: "/assets/tailwind-logo.png",
       },
       {
         id: 3,
         name: "R3F",
-        path: "/src/assets/r3f.png",
+        path: "/assets/r3f.png",
       },
     ],
   },
@@ -102,7 +102,7 @@ export const myProject = [
     subDesc:
       "Employed React, React Three Fiber, and Tailwind Css to create an immersive 3D shoe customization experience. Implemented intuitive color selection tools and real-time updates to visually showcase the chosen color combinations.",
     href: "https://shoes-animation.vercel.app/",
-    logo: "/src/assets/shoes-logo.png",
+    logo: "/assets/shoes-logo.png",
     logoStyle: {
       backgroundColor: "#60f5a1",
       background:
@@ -111,22 +111,22 @@ export const myProject = [
       boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
     },
     textures: "/videos/shoe.mp4",
-    spotlight: "/src/assets/spotlight3.png",
+    spotlight: "/assets/spotlight3.png",
     tags: [
       {
         id: 1,
         name: "React.js",
-        path: "/src/assets/react.svg",
+        path: "/assets/react.svg",
       },
       {
         id: 2,
         name: "TailwindCss",
-        path: "/src/assets/tailwind-logo.png",
+        path: "/assets/tailwind-logo.png",
       },
       {
         id: 3,
         name: "R3F",
-        path: "/src/assets/r3f.png",
+        path: "/assets/r3f.png",
       },
     ],
   },

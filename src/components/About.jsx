@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { copy, grid1, grid3, grid4, tick } from "../assets/images";
+import { copy, grid1, grid3, grid4, tick } from "../images";
 import Globe from "react-globe.gl";
 import Button from "../utils/Button";
 
@@ -37,7 +37,7 @@ const About = () => {
           <div className="grid-container">
             <p className="grid-headtext">Tech Stacks:-</p>
             <img
-              src="/src/assets/collage.png"
+              src="/assets/collage.png"
               className="object-contain w-full  h-fit"
               alt=""
             />
@@ -106,7 +106,7 @@ const About = () => {
               >
                 <img src={isToggle ? tick : copy} alt="" />
                 <p className=" lg:text-2xl md:text-xl text-gray_gradient text-white font-medium">
-                  gunidd243@gmail.com
+                  subhasishmallik0@gmail.com
                 </p>
               </div>
             </div>
